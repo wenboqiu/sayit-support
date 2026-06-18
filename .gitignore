@@ -1,0 +1,10 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# 本地预览/依赖
+node_modules/
+.cache/
+dist/
