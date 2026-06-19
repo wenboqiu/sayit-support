@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index,follow" />
+  <title>隨口說 · JustSayIt — 技術支援 / Support</title>
+  <link rel="stylesheet" href="shared/base.css" />
+  <style>
+    .lang-switch {
+      position: fixed; top: 14px; right: 14px; z-index: 20;
+      display: inline-flex; background: var(--bg); border: 1px solid var(--border);
+      border-radius: 999px; overflow: hidden; font-size: 13px; font-weight: 600;
+    }
+    .lang-switch button { border: none; background: transparent; color: var(--fg-muted); padding: 6px 14px; cursor: pointer; font: inherit; }
+    .lang-switch button.on { background: var(--accent); color: #fff; }
+    .lang-hant, .lang-hans, .lang-en { display: none; }
+    body.l-hant .lang-hant { display: inline; }
+    body.l-hans .lang-hans { display: inline; }
+    body.l-en  .lang-en  { display: inline; }
+    .faq-q { font-weight: 600; margin: 22px 0 6px; }
+  </style>
+</head>
+<body class="l-hant">
+  <div class="lang-switch">
+    <button data-lang="hans">简体</button>
+    <button data-lang="hant" class="on">繁體</button>
+    <button data-lang="en">EN</button>
+  </div>
+
+  <div class="wrap">
+    <header class="doc-header">
+      <span class="app">
+        <span class="lang-hant">隨口說 · JustSayIt</span>
+        <span class="lang-hans">脱口而出 · JustSayIt</span>
+        <span class="lang-en">JustSayIt</span>
+      </span>
+      <h1><span class="lang-hant">技術支援</span><span class="lang-hans">技术支持</span><span class="lang-en">Support</span></h1>
+      <p class="meta">
+        <span class="lang-hant">需要協助嗎？先看下方常見問題，或直接寫信給我們。</span>
+        <span class="lang-hans">需要帮助吗？先看下方常见问题，或直接写信给我们。</span>
+        <span class="lang-en">Need help? Check the FAQ below, or email us directly.</span>
+      </p>
+    </header>
+
+    <h2><span class="lang-hant">聯絡我們</span><span class="lang-hans">联系我们</span><span class="lang-en">Contact Us</span></h2>
+    <p>
+      <span class="lang-hant">任何問題、建議或意見，歡迎來信，我們會盡快回覆：</span>
+      <span class="lang-hans">任何问题、建议或意见，欢迎来信，我们会尽快回复：</span>
+      <span class="lang-en">For any question, suggestion, or feedback, email us and we'll get back to you as soon as we can:</span>
+    </p>
+    <ul>
+      <li>Email: <a href="mailto:3792517606@qq.com">3792517606@qq.com</a></li>
+    </ul>
+
+    <h2><span class="lang-hant">常見問題</span><span class="lang-hans">常见问题</span><span class="lang-en">FAQ</span></h2>
+
+    <p class="faq-q"><span class="lang-hant">如何開始使用？需要註冊嗎？</span><span class="lang-hans">如何开始使用？需要注册吗？</span><span class="lang-en">How do I get started? Do I need an account?</span></p>
+    <p>
+      <span class="lang-hant">您可以用 Apple 帳號登入，或以訪客方式直接使用基礎功能。登入後可在多台裝置間同步您的句子本。</span>
+      <span class="lang-hans">您可以用 Apple 账号登录，或以游客方式直接使用基础功能。登录后可在多台设备间同步您的句子本。</span>
+      <span class="lang-en">You can sign in with your Apple account, or use core features right away as a guest. Signing in lets you sync your sentence book across devices.</span>
+    </p>
+
+    <p class="faq-q"><span class="lang-hant">免費額度是怎麼算的？</span><span class="lang-hans">免费额度是怎么算的？</span><span class="lang-en">How does the free quota work?</span></p>
+    <p>
+      <span class="lang-hant">未訂閱使用者每日有固定次數的免費翻譯額度（如每日 5 次）。額度每天重置；訂閱後可獲得更高或不限次數的使用權益。</span>
+      <span class="lang-hans">未订阅用户每日有固定次数的免费翻译额度（如每日 5 次）。额度每天重置；订阅后可获得更高或不限次数的使用权益。</span>
+      <span class="lang-en">Non-subscribers get a fixed number of free translations per day (e.g. 5). The quota resets daily; subscribing unlocks higher or unlimited usage.</span>
+    </p>
+
+    <p class="faq-q"><span class="lang-hant">如何管理或取消訂閱？</span><span class="lang-hans">如何管理或取消订阅？</span><span class="lang-en">How do I manage or cancel my subscription?</span></p>
+    <p>
+      <span class="lang-hant">訂閱由 Apple App Store / Google Play 管理。請至 Apple／Google 帳戶的「訂閱」設定中查看、變更或取消。取消後仍可使用已付費週期內的權益至到期為止。退款適用相應平台的退款政策。</span>
+      <span class="lang-hans">订阅由 Apple App Store / Google Play 管理。请到 Apple／Google 账户的"订阅"设置中查看、变更或取消。取消后仍可使用已付费周期内的权益至到期为止。退款适用相应平台的退款政策。</span>
+      <span class="lang-en">Subscriptions are managed by the Apple App Store / Google Play. Go to the "Subscriptions" section of your Apple/Google account to view, change, or cancel. After canceling, you keep benefits until the end of the paid period. Refunds follow the respective platform's refund policy.</span>
+    </p>
+
+    <p class="faq-q"><span class="lang-hant">「按住說話」沒有反應 / 麥克風用不了？</span><span class="lang-hans">"按住说话"没有反应 / 麦克风用不了？</span><span class="lang-en">"Hold to talk" isn't working / microphone issue?</span></p>
+    <p>
+      <span class="lang-hant">請到系統「設定」中確認已允許本應用程式使用麥克風，並保持網路連線。語音辨識由裝置系統提供。</span>
+      <span class="lang-hans">请到系统"设置"中确认已允许本应用使用麦克风，并保持网络连接。语音识别由设备系统提供。</span>
+      <span class="lang-en">Please make sure microphone permission is granted to the app in system Settings, and that you have a network connection. Speech recognition is provided by your device's operating system.</span>
+    </p>
+
+    <p class="faq-q"><span class="lang-hant">如何刪除句子本內容或註銷帳號？</span><span class="lang-hans">如何删除句子本内容或注销账号？</span><span class="lang-en">How do I delete my data or account?</span></p>
+    <p>
+      <span class="lang-hant">您可在應用程式內刪除收藏的句子；如需註銷帳號，請於應用程式「設定」中操作。註銷後我們將刪除或匿名化與您帳號關聯的個人資料。詳見隱私權政策。</span>
+      <span class="lang-hans">您可在应用内删除收藏的句子；如需注销账号，请在应用"设置"中操作。注销后我们将删除或匿名化与您账号关联的个人信息。详见隐私政策。</span>
+      <span class="lang-en">You can delete saved sentences in the app; to delete your account, use the option in the app's Settings. After deletion we remove or anonymize the personal data associated with your account. See the Privacy Policy for details.</span>
+    </p>
+
+    <p class="faq-q"><span class="lang-hant">翻譯結果不準確怎麼辦？</span><span class="lang-hans">翻译结果不准确怎么办？</span><span class="lang-en">What if a translation looks wrong?</span></p>
+    <p>
+      <span class="lang-hant">翻譯與例句由大型語言模型生成，可能存在不準確之處，僅供學習參考。正式場合使用前請自行核實。歡迎來信回饋以幫助我們改進。</span>
+      <span class="lang-hans">翻译与例句由大语言模型生成，可能存在不准确之处，仅供学习参考。正式场合使用前请自行核实。欢迎来信反馈以帮助我们改进。</span>
+      <span class="lang-en">Translations and examples are generated by large language models and may be inaccurate; they're for learning reference only. Please verify before relying on them in formal settings. Feedback by email is always welcome.</span>
+    </p>
+
+    <h2><span class="lang-hant">相關連結</span><span class="lang-hans">相关链接</span><span class="lang-en">Links</span></h2>
+    <ul>
+      <li><a href="marketing.html"><span class="lang-hant">產品介紹</span><span class="lang-hans">产品介绍</span><span class="lang-en">About the app</span></a></li>
+      <li><a href="privacy.zh-Hant.html"><span class="lang-hant">隱私權政策（繁體中文）</span><span class="lang-hans">隐私政策（繁体中文）</span><span class="lang-en">Privacy Policy (繁體中文)</span></a> · <a href="privacy.en.html">English</a></li>
+      <li><a href="terms.zh-Hant.html"><span class="lang-hant">服務條款（繁體中文）</span><span class="lang-hans">服务条款（繁体中文）</span><span class="lang-en">Terms of Service (繁體中文)</span></a> · <a href="terms.en.html">English</a></li>
+    </ul>
+
+    <footer class="doc-footer">
+      © 2026 Wenbo Qiu ｜ 脱口而出 / 隨口說 · JustSayIt
+    </footer>
+  </div>
+
+  <script>
+    const btns = [...document.querySelectorAll(".lang-switch button")];
+    function setLang(lang) {
+      document.body.className = "l-" + lang;
+      document.documentElement.lang = lang === "en" ? "en" : (lang === "hans" ? "zh-Hans" : "zh-Hant");
+      btns.forEach(b => b.classList.toggle("on", b.dataset.lang === lang));
+    }
+    btns.forEach(b => b.addEventListener("click", () => setLang(b.dataset.lang)));
+    const nav = (navigator.language || "").toLowerCase();
+    let def = "hant";
+    if (nav.startsWith("zh")) def = /(cn|sg|hans)/.test(nav) ? "hans" : "hant";
+    else if (nav) def = "en";
+    setLang(def);
+  </script>
+</body>
+</html>
